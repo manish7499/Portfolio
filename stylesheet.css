@@ -8,8 +8,8 @@
 }
 
 body{
-    background: #0c1022;
-    color: #ededed;
+    background: #e9f1f1;
+    color: #000000;
 }
 
 .header{
@@ -64,7 +64,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15% 10% 0%;
+    padding: 10% 10% 0%;
 }
 
 .home-content{
@@ -266,7 +266,7 @@ background-position: 100% 0;
 }
 
 .glowing-circle span:nth-child(1){
-    filter: blur(20px);
+    filter: blur(10px);
 }
 
 
@@ -278,6 +278,9 @@ background-position: 100% 0;
     z-index: 1;
     overflow: hidden;
 }
+
+/* this is for photo which availeble under circle */
+
 .image img{
     top:30px;
     max-width: 350px;
